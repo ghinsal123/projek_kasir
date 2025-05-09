@@ -79,7 +79,7 @@
 </head>
 <body>
     <h1>Tambah Penjualan</h1>
-    <form action="index.php?page=simpan" method="POST">
+    <form action="index.php?controller=penjualan&=simpan" method="POST">
         <label for="jual_id">ID Penjualan</label>
         <input type="text" id="jual_id" name="jual_id" required>
 

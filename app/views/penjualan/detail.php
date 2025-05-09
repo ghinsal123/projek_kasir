@@ -75,7 +75,7 @@
         <p><strong>Total Harga: Rp <?= number_format($data["totalharga"], 0, ',', '.') ?></strong></p>
         <p><strong>ID Pelanggan: <?= $data["pelangganid"] ?></strong></p>
         <div class="button-container">
-                <a href="index.php">Kembali</a>
+                <a href="index.php?controller=penjualan">Kembali</a>
         </div>
     </div>
 </body>

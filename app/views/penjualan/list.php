@@ -136,9 +136,9 @@
             <td><?= $value['tanggalpenjualan'] ?></td>
             <td><?= number_format($value['totalharga'], 0, ',', '.') ?></td>
             <td>
-                <a href="index.php?page=detail&id=<?= $value['penjualanid'] ?>"><button class="detail">Detail</button></a>
-                <a href="index.php?page=edit&id=<?= $value['penjualanid'] ?>"><button class="edit">Edit</button></a>
-                <a href="index.php?page=delete&id=<?= $value['penjualanid'] ?>" onclick="return confirm('Yakin ingin menghapus penjualan ini?')">
+                <a href="index.php?controller=penjualan&page=detail&id=<?=$value['pelangganid']?>"><button class="detail">Detail</button></a>
+                <a href="index.php?controller=penjualan&page=edit&id=<?=$value['pelangganid']?>"><button class="edit">Edit</button></a>
+                <a href="index.php?controller=penjualan&page=delete&id=<?= $value['penjualanid'] ?>" onclick="return confirm('Yakin ingin menghapus penjualan ini?')">
                     <button class="delete">Hapus</button>
                 </a>
             </td>
